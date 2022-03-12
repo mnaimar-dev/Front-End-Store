@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preload" href="css/styles.css" as="style" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>FrontEnd Store</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="Logotipo" />
+      </a>
+    </header>
+    <!-- Header End -->
+
+    <!-- Nav Start -->
+    <nav class="navigation">
+      <a class="navigation__links navigation__links--active" href="index.html"
+        >Tienda</a
+      >
+      <a class="navigation__links" href="nosotros.html">Nosotros</a>
+    </nav>
+    <!-- Nav End -->
+
+    <main class="container producte">
+      <h1>React JS</h1>
+      <div class="camisa">
+        <img class="camisa__img" src="./img/3.jpg" alt="Imagen del Producto" />
+
+        <div>
+          <p>
+            Maecenas consectetur ultricies mi vel venenatis. Curabitur risus
+            tellus, congue non tellus at, semper dapibus turpis. Duis
+            pellentesque, risus sit amet placerat porttitor, tortor augue
+            volutpat ante, non dignissim odio ligula at arcu.
+          </p>
+
+          <form class="form">
+            <select class="form__field">
+              <option disabled selected>-- Seleccionar Talle --</option>
+              <option>Chica</option>
+              <option>Mediana</option>
+              <option>Grande</option>
+            </select>
+            <input
+              class="form__field"
+              type="number"
+              placeholder="Cantidad"
+              min="1"
+            />
+            <input class="form__submit" type="submit" value="Agregar al Carrito" />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <p class="footer__text">
+        © 2021 Front End Store - Todos los Derechos Reservados.
+      </p>
+    </footer>
+    <!-- Footer End -->
+  </body>
+</html>
